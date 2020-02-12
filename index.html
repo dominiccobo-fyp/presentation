@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<style>
+			.reveal section img { background:none; border:none; box-shadow:none; }
+		</style>
+			
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>
+						<h3>So what's our problem?</h3>
+					</section>
+					
+					<section>
+						<img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif"/>
+					</section>
+
+					<section>
+						<p>Wow! You're working on that new feature?</p>
+						<img src="https://media.giphy.com/media/ofrkfuqsR8mvm/giphy.gif">
+					</section>
+
+					<section>
+						<img src="https://imgs.xkcd.com/comics/chat_systems.png"/> 
+					</section>
+
+					<section>
+						<div style="display: flex;">
+						<div style="flex: 1;">
+							<img width="100px" src="assets/jira.png"/>
+							<img width="100px" src="assets/confluence.png"/>
+							<img width="100px" src="assets/bamboo.png"/>
+							<img width="100px" src="assets/jenkins.png"/>
+							<img width="100px" src="assets/stackoverflow.png"/>
+							<img width="100px" src="assets/gitlab.png"/>
+							<img width="100px" src="assets/servicenow.png"/>
+							<img width="100px" src="assets/office.png"/>
+							<img width="100px" src="assets/email.png"/>
+							<img width="100px" src="assets/github.png"/>
+						</div>
+
+						<div style="flex: 2;">
+							<ul>
+								<div class="fragment">
+									<li> Stack Overflow</li>
+									<li>Jira</li>
+									<li>GitHub</li>
+								</div>
+								<div class="fragment">
+									<li>ServiceNow</li>
+									<li>Confluence</li>
+									<li>Company Intranet</li>
+									<li>MS Sharepoint</li>
+								</div>
+								
+							</ul> 
+
+							<ul>
+								<li class="fragment">GitLab</li>
+								<li class="fragment">Wiki</li>
+								<li class="fragment">Email</li>
+								<li class="fragment">IRC</li>
+								<li class="fragment">Jenkins</li>
+								<li class="fragment">Bamboo</li>
+							</ul>
+						</div>
+					</div>
+					</section>
+
+					<section>
+						<p>We have so many we've resorted to metaphorical taxonomy akin to the building blocks of the world...</p>
+						<img height="400px" src="assets/period_table_of_tools.png">
+					</section>
+
+					<section>
+						<!-- <img width="380px", src="https://media.giphy.com/media/lJNoBCvQYp7nq/giphy.gif">  -->
+						<img width="380px" src="https://media.giphy.com/media/d2jjuAZzDSVLZ5kI/giphy.gif">
+						<h2>Still can't find it</h2>
+					</section>
+
+					<section>
+						<h1>Argh!!!!!! </h1>
+						<img src="https://media.giphy.com/media/383EHk84zdw0U/giphy.gif"/>
+					</section>
+
+
+					<section>
+						<h4>Nevermind ... Found it</h4>
+
+						<img src="https://media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif"/>
+						<h4>Where was I again?</h4>
+						<h4>Coffee break anyone?</h4>	
+					</section>
+
+					<section>
+						<h4>I'm feeling mentally drained already</h4>
+						<p>I haven't even started</p>					
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Why does this matter?</h1>
+					</section>
+
+					<!-- Disconnection in our tools affects our value stream  -->
+					<!-- Disconnection in our tools also affects our cognitive resources -->
+					<section>
+						Tools should support humans creative abilities, not obstruct or hinder them!
+					</section>
+				</section>
+
+				<section>
+					<section>
+						So how do we present information from multiple sources?
+					</section>
+
+					<section>
+						There's already a solution?
+					</section>
+
+					<section>
+						<h4>The ...</h4>
+						<h1>"Integrated"</h1>
+						<h3>Development Environment</h3>
+					</section>
+					<section>
+						<h4>The defacto home for a developer</h4>
+					</section>
+					<section>
+						<h4>Or is it?</h4>
+					</section>
+					<section>
+						<h4>"I'll google that"</h4>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
