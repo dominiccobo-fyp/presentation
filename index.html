@@ -36,10 +36,17 @@
 					</section>
 					
 					<section>
+						<aside class="notes">
+							So you're sat down working on a problem, when suddenly ...
+						</aside>
 						<img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif"/>
 					</section>
 
 					<section>
+						<aside class="notes">
+							Someone notices that you're working on something that they know something about and interrupts you. 
+							They think you've missed something.
+						</aside>
 						<p>Wow! You're working on that new feature?</p>
 						<img src="https://media.giphy.com/media/ofrkfuqsR8mvm/giphy.gif">
 					</section>
@@ -132,11 +139,31 @@
 					<section>
 						Tools should support humans creative abilities, not obstruct or hinder them!
 					</section>
+
+					<section>
+						<blockquote>"Complexity in toolchains, processes and information hinders delivery of business value" - Kersten (2018) </blockquote>
+					</section>
+
+					<section>
+						<blockquote>"The usage of different tools forms part of a developers cognitive load" - Klemola & Rilling (2002)</blockquote>
+					</section>
+
+					<section>
+						<blockquote>"Problem solving requires significant amount of cognitive load" - Sweller 1998</blockquote>
+					</section>
+
+					<section>
+						<blockquote>"Limited working memory" - Miyake and Shah 1999</blockquote>
+					</section>
+
+					<section>
+						Context ultimately forms an important part of problem solving.
+					</section>
 				</section>
 
 				<section>
 					<section>
-						So how do we present information from multiple sources?
+						<h4>So how do we remmedy this cognitive stressing disconnect?</h4>
 					</section>
 
 					<section>
@@ -148,16 +175,67 @@
 						<h1>"Integrated"</h1>
 						<h3>Development Environment</h3>
 					</section>
+			
 					<section>
 						<h4>The defacto home for a developer</h4>
+						<h4 class="fragment">Or is it?</h4>
 					</section>
+
 					<section>
-						<h4>Or is it?</h4>
+						<blockquote>"I'll google that"</blockquote>
 					</section>
+
 					<section>
-						<h4>"I'll google that"</h4>
+						IDEs are great at enriching our context.
+					</section>
+
+					<section>
+						<p><strong>Except ...</strong> they tend to focus on assisting the local context. </p>
+						<ul class="fragment">
+							<li>Version history</li>
+							<li>Code manipulation</li>
+							<li>Local references</li>
+							<li>etc</li>
+						</ul>
+						
+					</section>
+
+					<section>
+						<p>Source specific plugins are created to enhance context</p>
+						<h4 class="fragment">however ...</h4>
+						<ul class="fragment">
+							<li>their availability varies largely</li>
+							<li>their integration still creates fragmeneted retrieval</li> 
+						</ul>
+					</section>
+
+					<section>
+						This problem is not unxplored ...
+					</section>
+
+					<section>
+						<img style="background-color:white" src="https://code.visualstudio.com/assets/api/language-extensions/language-server-extension-guide/lsp-languages-editors.png"/>
 					</section>
 				</section>
+
+				<section>
+					<section>The Approach</section>
+					
+					<section>
+						Reuse the LSP
+					</section>
+
+					<section>
+						<p>Presented challenges:</p>
+
+						<ul>
+							<li>Push vs Pull</li>
+							<li>Extensibility of LSP</li>
+						</ul>
+					</section>
+				</section>
+
+				
 			</div>
 		</div>
 
