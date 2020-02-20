@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>FYP Presentation</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -32,30 +32,49 @@
 			<div class="slides">
 				<section>
 					<section>
-						<h3>So what's our problem?</h3>
+						<h1>What's our problem?</h1>
 					</section>
 					
 					<section>
 						<aside class="notes">
-							So you're sat down working on a problem, when suddenly ...
+							<ul>
+								<li>You're sat down working on a problem, when suddenly ...</li>
+							</ul>
+							
 						</aside>
 						<img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif"/>
 					</section>
 
 					<section>
 						<aside class="notes">
-							Someone notices that you're working on something that they know something about and interrupts you. 
-							They think you've missed something.
+							<ul>
+								<li>Someone notices that you're working on something that they know something about and interrupts you. </li>
+								<li>They think you've missed something and remember sending you something about it, but you can't find it anywhere.</li>
+							</ul>
 						</aside>
 						<p>Wow! You're working on that new feature?</p>
 						<img src="https://media.giphy.com/media/ofrkfuqsR8mvm/giphy.gif">
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>A simplification?</li>
+								<li>We just need to appreciate overwhelming complexity of modern day communication.</li>
+							</ul>
+						</aside>
 						<img src="https://imgs.xkcd.com/comics/chat_systems.png"/> 
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>And to add to the already big mess that is communication</li>
+								<li>We have all of these ...</li>
+								<li>and more...</li>
+							</ul>
+							
+						</aside>
 						<div style="display: flex;">
 						<div style="flex: 1;">
 							<img width="100px" src="assets/jira.png"/>
@@ -76,8 +95,6 @@
 									<li> Stack Overflow</li>
 									<li>Jira</li>
 									<li>GitHub</li>
-								</div>
-								<div class="fragment">
 									<li>ServiceNow</li>
 									<li>Confluence</li>
 									<li>Company Intranet</li>
@@ -85,47 +102,69 @@
 								</div>
 								
 							</ul> 
-
-							<ul>
-								<li class="fragment">GitLab</li>
-								<li class="fragment">Wiki</li>
-								<li class="fragment">Email</li>
-								<li class="fragment">IRC</li>
-								<li class="fragment">Jenkins</li>
-								<li class="fragment">Bamboo</li>
+							
+							<ul class="fragment">
+								<li>GitLab</li>
+								<li>Wiki</li>
+								<li>Email</li>
+								<li>IRC</li>
+								<li>Jenkins</li>
+								<li>Bamboo</li>
 							</ul>
 						</div>
 					</div>
 					</section>
 
 					<section>
-						<p>We have so many we've resorted to metaphorical taxonomy akin to the building blocks of the world...</p>
+						<aside class="notes">
+							<ul>
+								<li>Build system (almost) more complicated than chemistry ...</li>
+								<li>We have so many tools we've resorted to metaphorical taxonomy akin to the building blocks of the world.</li>
+							</ul>
+						</aside>
 						<img height="400px" src="assets/period_table_of_tools.png">
 					</section>
 
 					<section>
-						<!-- <img width="380px", src="https://media.giphy.com/media/lJNoBCvQYp7nq/giphy.gif">  -->
+						<aside class="notes">
+							<ul>
+								<li>Even a map of where things are wont help us</li>
+							</ul>
+						</aside>
 						<img width="380px" src="https://media.giphy.com/media/d2jjuAZzDSVLZ5kI/giphy.gif">
-						<h2>Still can't find it</h2>
+						<h2>How do we navigate these</h2>
 					</section>
 
 					<section>
-						<h1>Argh!!!!!! </h1>
+						<aside class="notes">
+							<ul>
+								<li>Sometimes the fustration is enough to give up</li>
+							</ul>
+						</aside>
 						<img src="https://media.giphy.com/media/383EHk84zdw0U/giphy.gif"/>
 					</section>
 
 
 					<section>
-						<h4>Nevermind ... Found it</h4>
-
+						<aside class="notes">
+							<ul>
+								<li> Sometimes we're lucky to find what it was...</li>
+								<li>But not without significant mental exhaustion</li>
+							</ul>
+						</aside>
+						<h4>And ... I found it</h4>
 						<img src="https://media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif"/>
 						<h4>Where was I again?</h4>
-						<h4>Coffee break anyone?</h4>	
 					</section>
 
 					<section>
-						<h4>I'm feeling mentally drained already</h4>
-						<p>I haven't even started</p>					
+						<aside class="notes">
+							<ul>
+								<li>And so, after exterting ourselves so much</li>
+								<li>We resort to the coffee break ...</li>
+							</ul>
+						</aside>
+						<h4>Coffee break anyone?</h4>				
 					</section>
 				</section>
 
@@ -137,26 +176,60 @@
 					<!-- Disconnection in our tools affects our value stream  -->
 					<!-- Disconnection in our tools also affects our cognitive resources -->
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>Tools help reduce the burden of repetitive processes enabling focus on what humans do right.</li>
+								<li>Creativity</li>
+							</ul>
+						</aside>
 						Tools should support humans creative abilities, not obstruct or hinder them!
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>Pointing out the obvious...</li>
+								<li>Complexity stops us getting real work done</li>
+							</ul>
+						</aside>
 						<blockquote>"Complexity in toolchains, processes and information hinders delivery of business value" - Kersten (2018) </blockquote>
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>Complex toolchains require mental effort to use.</li>
+							</ul>
+						</aside>
 						<blockquote>"The usage of different tools forms part of a developers cognitive load" - Klemola & Rilling (2002)</blockquote>
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>Problem solving / creative processes also require mental effort.</li>
+							</ul>
+						</aside>
 						<blockquote>"Problem solving requires significant amount of cognitive load" - Sweller 1998</blockquote>
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>And lastly, the last part of the equation...</li>
+								<li>We only have a limited amount of mental effort to dispense.</li>
+							</ul>
+						</aside>
 						<blockquote>"Limited working memory" - Miyake and Shah 1999</blockquote>
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>Ultimately, context is important when problem solving.</li>
+								<li>We cannot restrict tool usage, everyone's preferences vary</li>
+							</ul>
+						</aside>
 						Context ultimately forms an important part of problem solving.
 					</section>
 				</section>
@@ -164,6 +237,12 @@
 				<section>
 					<section>
 						<h4>So how do we remmedy this cognitive stressing disconnect?</h4>
+						<aside class="notes">
+							<ul>
+								<li>So instead we need to look at making it more easily accessible.</li>
+								<li>But how?</li>
+							</ul>
+						</aside>
 					</section>
 
 					<section>
@@ -182,7 +261,7 @@
 					</section>
 
 					<section>
-						<blockquote>"I'll google that"</blockquote>
+						<blockquote>"I'll google that" <br/>- Unknown</blockquote>
 					</section>
 
 					<section>
@@ -190,6 +269,13 @@
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>But programmers have typically been considered a silod activity</li>
+								<li>and thus the scope is typically local</li>
+								<li>vcs, refactoring, etc</li>
+							</ul>
+						</aside>
 						<p><strong>Except ...</strong> they tend to focus on assisting the local context. </p>
 						<ul class="fragment">
 							<li>Version history</li>
@@ -201,6 +287,13 @@
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>Plugins for external context do exist</li>
+								<li>But... mileage varies considerably</li>
+								<li>And the varying approach to implementation just adds to confusion</li>
+							</ul>
+						</aside>
 						<p>Source specific plugins are created to enhance context</p>
 						<h4 class="fragment">however ...</h4>
 						<ul class="fragment">
@@ -210,38 +303,272 @@
 					</section>
 
 					<section>
-						This problem is not unxplored ...
+						This problem is not unexplored ...
 					</section>
 
 					<section>
+						<aside class="notes">
+							<ul>
+								<li>Not long ago, we had an IDE for each language</li>
+								<li>LSP solved this for us by decoupling the logic from the IDE</li>
+							</ul>
+						</aside>
+						<h4>The IDE language issue ...</h4>
+						<p>m IDEs * n languages</p>
 						<img style="background-color:white" src="https://code.visualstudio.com/assets/api/language-extensions/language-server-extension-guide/lsp-languages-editors.png"/>
 					</section>
 				</section>
 
 				<section>
-					<section>The Approach</section>
+					<section><h2>What did we do?</h2></section>
 					
 					<section>
-						Reuse the LSP
+						<aside class="notes">
+							<ul>
+								<li>We draw inspiration from the principles of LSP</li>
+							</ul>
+						</aside>
+						Re-use the principles of the Language Server Protocol - LSP
 					</section>
 
 					<section>
-						<p>Presented challenges:</p>
+						<aside class="notes">
+							<ul>
+								<li>All logic is contained with the daemon.</li>
+								<li>It understands how to send queries for the provider.</li>
+								<li>It understands how to handle the results from the queries.</li>
+								<li>The IDE simply acts as a presentation layer.</li>
+								<li>What are providers?</li>
+								<li>They have mined an opinionated view of the data and, or information available for a topic.</li>
+								<li>Many providers for one topic.</li>
+							</ul>
+						</aside>
+						<h4>The design</h4>
+						<div style="width: 100%;">
+				
+						<div id="test" class="mermaid">
+						
+							graph LR
+								A["IDE A"]
+								AA["IDE B"]
+								AB["IDE C"]
+								B["Local Context<br/> Daemon"]
+								C(("Message <br/> Bus"))
+								D[("Documentation <br/>Provider")]
+								E[("Experts <br/>Provider")]
+								F[("Work Items <br/>Provider")]
+								X["Data sources"]
+								subgraph Client
+									A --> B;
+									AA --> B;
+									AB --> B;
+								end
+								subgraph Server
+									B --> C;
+									C -- 1 * --> D;
+									C -- 1 * --> E;
+									C -- 1 * --> F;
+								end
+								D --> X;
+								E --> X;
+								F --> X;
+						</div>
+					</div>
+					</section> 
 
-						<ul>
-							<li>Push vs Pull</li>
-							<li>Extensibility of LSP</li>
-						</ul>
+					<section>
+						<aside class="notes">
+							<ul>
+								<li>So here's a basic overview of how ths works.</li>
+								<li>The daemon performs all the heavy lifting. </li>
+								<li>This leaves IDE to presentation duties.</li>
+								<li>Thin, dumb clients.</li>
+							</ul>
+						</aside>
+						<h4 style="margin-bottom: 2px">The protocol</h4>
+						<pre>						
+							<div class="mermaid" style="font-size: 12px; margin-top: -40px;">
+								sequenceDiagram
+									IDE->>+Daemon: Here's a context, answer this?
+
+									Daemon->>+Message Bus: Send this request to\nto subscribed parties 
+
+									Message Bus ->>+Providers: Here's a query
+
+									Note right of Providers: Scatter query
+
+									Daemon->>+IDE: Here's a collection identifier
+
+									loop Poll
+										IDE->>+Daemon: Any new results <br/> for this identifier!
+										Daemon->>+IDE: Paged Results, if any
+									end								
+
+									Note right of Providers: Empty result set <br/> returned for lack of <br/> understanding.
+
+									Providers ->>+Message Bus: Return results to requester
+
+									Message Bus ->>+Daemon: Here's a new result
+
+									Note left of Message Bus: Add to collection
+					
+							</div>
+						</pre>
+					</section>
+
+					<section>
+						<h4>How do providers integrate?</h4>
+						<div>
+							<pre>
+								<code class="Java" style="font-size: 18px;">@Component
+public class ExpertsProvider implements ExpertsQueryListener {
+	@QueryHandler
+	@Override
+	public List<Expert> on(AssociatedExpertsQuery query) {
+		// TODO: compute values that need returning
+		return new ArrayList<>();
+	}
+}</code></pre>
+
+<pre><code class="Gradle" style="font-size: 12px;">implementation 'org.axonframework:axon-spring-boot-starter:{axon-version}'
+implementation 'com.dominiccobo.fyp:context-lsp-api:{api-version}'
+implementation 'org.springframework.boot:spring-boot-starter-web:{spring-version}'
+</code></pre>
+					</div>
+					</section>
+
+					<section>
+						<aside class="notes">
+							<ul>
+								<li>We've trialled out these</li>
+							</ul>
+						</aside>
+						<h4>Demonstrated providers ...</h4>
+						<table>
+							<thead>
+							<tr>
+								<td></td>
+								<td>Work Items</td>
+								<td>Experts</td>
+								<td>Documentation</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>GitHub</td>
+								<td>&#10004;</td>
+								<td>&#10004;</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>GitLab</td>
+								<td>&#10004;</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Stack Overflow</td>
+								<td></td>
+								<td></td>
+								<td>&#10004;</td>
+							</tr>
+						</tbody>
+						</table>
 					</section>
 				</section>
 
-				
+				<section>
+
+					<section>
+						<h4>Does the approach introduce <strong>noticeable</strong> improvements?</h4>
+					</section>
+
+					<section>
+						<h4>Finding associated work items</h4>
+						<div style="width: 100%;">
+						<div style="width: 50%; float: left;">
+							<img id="before" src="assets/work-items-before.gif"/>
+							<p>Traditional</p>
+							<p>~40s</p>
+						</div>
+						<div style="width: 50%; float: left;">
+							<img id="after" src="assets/work-items-after.gif"/>
+							<p>Our approach</p>
+							<p>~12s</p>
+						</div>
+					</div>
+					</section>
+				</section>
+
+				<section>
+					<section><h3>Where do we go from here?</h3></section>
+
+					<section>
+						<h4>Language support conundrum ...</h4>
+						<div style="margin-top: 10%;">
+							<ul>
+								<li>Axon focuses mainly on Java</li>
+								<li>Mining is usually done with scripting e.g. Python</li>
+								<li>GraalVM vs other polyglot approaches</li>
+							</ul>
+						</div>
+					</section>
+
+					<section>
+						<h4>Building out the responses ...</h4>
+						<div style="margin-top: 10%;">
+							<ul>
+								<li>Improved, more flexible models for response</li>
+								<li>Improved filtering based on these models</li>
+							</ul>
+						</div>
+					</section>
+
+					<section>
+						<h4>Truly IDE-agnostic plugins...</h4>
+						<div style="margin-top: 10%;">
+						<ul>
+							<li>Currently our data flow is mostly uni-directional</li>
+							<li>Expanding, a bi-directional ability could provide a better interaction platform.</li>
+						</ul>
+						</div>
+					</section>
+
+					<section>
+						<h4>Enabling greater metrics?</h4>
+						<div style="margin-top: 10%;">
+							<ul>
+								<li>Looking at how developers truly use IDEs?</li>
+							</ul>
+						</div>
+						</section>
+				</section>
+
+				<section>
+					<h4>Questions?</h4>
+				</section>
 			</div>
 		</div>
 
 		<script src="js/reveal.js"></script>
+		<script src="https://unpkg.com/mermaid@8.4.7/dist/mermaid.min.js"></script>
 
 		<script>
+
+			mermaid.initialize({
+				startOnLoad:true, 
+				theme: 'dark', 
+				sequence: {
+					height: 25,
+					rightAngles:false,
+					noteMargin: 10,
+					messageMargin: 40
+				},
+				flowchart: {
+					useMaxWidth:true,
+					htmlLabels:false
+				}
+			});
 			// More info about config & dependencies:
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
@@ -251,7 +578,7 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/notes/notes.js', async: true },
 				]
 			});
 		</script>
